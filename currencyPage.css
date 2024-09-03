@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+   scroll-behavior: smooth;
+}
+.home{
+    height:100vh;
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size:70px;
+    padding-top:200px;
+    margin-left:100px;
+}
+.hero span{
+    color:orange;
+}
+.desc{
+    color:white;
+    margin-left:100px;
+    margin-top:15px;
+    font-family: Montserrat;
+    font-size: 13.5px;
+}
+.explore{
+    background-color: orange;
+    padding:10px 15px;
+    border-radius:30px;
+    border: none;
+    outline: none;
+    margin-left:100px;
+    margin-top:90px;
+    color: white;
+    font-family: Montserrat;
+}
+.explore:hover{
+    cursor:pointer;
+    background-color: white;
+    color: orange;
+    transition-duration: 300ms;
+}
+.calc-short{
+    background-color: orange;
+    padding:10px 15px;
+    border-radius:30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 90px;
+    color: white;
+    font-family: Montserrat;
+}
+.calc-short:hover{
+    cursor:pointer;
+    background-color: white;
+    color: orange;
+    transition-duration: 300ms;
+}
+.news-button{
+    background-color: orange;
+    padding:10px 15px;
+    border-radius:30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 90px;
+    color: white;
+    font-family: Montserrat;
+}
+.news-button:hover{
+    cursor:pointer;
+    background-color: white;
+    color: orange;
+    transition-duration: 300ms;
+}
+.coins{
+    height: auto;
+    background-color: #0F002B;
+    padding-top: 100px;
+}
+.coin-box{
+    margin: 0 auto;
+    /* padding-top:100px ; */
+    color:white;
+    height:auto;
+    width:90%;
+    position: relative;
+}
+.coin-lines{
+    width: 100%;
+    height:70px;
+    border-bottom: 1px solid white;
+}
+.coin-details{
+    width: 100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: 20px 2fr 1fr 1fr 1fr 20px;
+    align-items: center;
+}
+.coin-lines-heading{
+    width: 100%;
+    height:50px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.coin-details-heading{
+    width: 100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: 20px 2fr 1fr 1fr 1fr 20px;
+    align-items: center;
+}
+.coin{
+    margin-left:20px;
+    grid-column: 2/3;
+}
+.price{
+    grid-column: 3/4;
+}
+.changes{
+    grid-column: 4/5;
+}
+.market{
+    grid-column: 5/6;
+}
+.coin-details-heading p{
+    font-family:'Montserrat';
+    font-weight: 900;
+}
+.coin-details p{
+    font-family:'Montserrat';
+}
+.coin span{
+    margin-left: 6px;
+    font-size:13px;
+    color:rgb(160, 155, 155);
+}
+.changes i{
+    margin-right:5px ;
+}
+.coin-img{
+    width:25px;
+}
+.calculator{
+    height:100vh;
+    background-color: #0F002B;
+    padding-top: 170px;
+}
+.calculate-area{
+    width:60%;
+    padding:20px;
+    margin: 0 auto;
+}
+.calculate-form{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.currency-selection{
+    width:70%;
+    display: flex;
+    margin-bottom:30px;
+    justify-content: space-between;
+}
+.amount{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+.currency-selection .currency-one{
+    width: 46%;
+    padding: 15px;
+    color: #0F002B;
+    font-family: 'Montserrat';
+}
+.inputs{
+    width: 46%;
+    padding: 15px;
+    color: #0F002B;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 13px;
+    border-radius:8px;
+}
+.output-amount{
+    color: white;
+}
+.calculate-button{
+    width:50%;
+    padding: 13px;
+    color: #0F002B;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    border-radius:12px;
+    color: white;
+}
+.calculate-button:hover{
+    cursor:pointer;
+    background-color: white;
+    color: orange;
+    transition-duration: 300ms;
+}
+.currency-title{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding:10px 15px;
+    border-radius:30px;
+    border: none;
+    outline: none;
+    color:white;
+    font-family: 'Montserrat';
+    margin: 30px auto 0;
+}
+.load:hover{
+    cursor: pointer;
+    background-color: white;
+    color: orange;
+    transition-duration: 300ms;
+}
+.load i{
+    margin-left:10px;
+}
