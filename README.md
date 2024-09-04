@@ -15,7 +15,7 @@ Welcome to CryptoPulse, your all-in-one cryptocurrency platform! Stay ahead of t
 To run CryptoPulse locally on your machine, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/your-username/cryptopulse.git
+   git clone https://github.com/daves-imapct/CrytoPluse.git
    cd cryptopulse
 2. Install dependencies:
 If your project requires dependencies, install them with:
