@@ -65,7 +65,7 @@ html{
     margin-top:30px;
     margin-left: 40px;
     margin-bottom: 30px;
-    width:12%;
+    /* width:12%; */
 
 }.read-more:hover{
     cursor:pointer;
@@ -96,4 +96,64 @@ html{
     font-style: italic;
     font-size: 13px;
     color: gray;
+}
+@media (max-width: 480px) {
+    .news-cover {
+        height: 300px;
+    }
+    .news-title {
+        font-size: 25px;
+    }
+    .news-detail {
+        font-size: 13px;
+    }
+    .read-more {
+        width: 40px;
+        margin-left: 20px;
+    }
+    .title {
+        font-size: 30px;
+        width: 80%;
+    }
+}
+
+/* Tablets (up to 768px) */
+@media (max-width: 768px) {
+    .news-cover {
+        height: 350px;
+    }
+    .news-title {
+        font-size: 30px;
+    }
+    .news-detail {
+        font-size: 14px;
+    }
+    .read-more {
+        width: 50px;
+        margin-left: 30px;
+    }
+    .title {
+        font-size: 35px;
+        width: 85%;
+    }
+}
+
+/* Small desktops (up to 1024px) */
+@media (max-width: 1024px) {
+    .news-cover {
+        height: 400px;
+    }
+    .news-title {
+        font-size: 33px;
+    }
+    .news-detail {
+        font-size: 14px;
+    }
+    .read-more {
+        width: 25%;
+        margin-left: 35px;
+    }
+    .title {
+        font-size: 37px;
+    }
 }
