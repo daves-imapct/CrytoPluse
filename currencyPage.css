@@ -180,12 +180,12 @@ html{
     justify-content: space-between;
     margin-bottom:30px;
 }
-.currency-selection .currency-one{
+/* .currency-selection .currency-one{
     width: 46%;
     padding: 15px;
     color: #0F002B;
     font-family: 'Montserrat';
-}
+} */
 .inputs{
     width: 46%;
     padding: 15px;
@@ -245,4 +245,115 @@ html{
 }
 .load i{
     margin-left:10px;
+}
+@media (max-width: 520px) {
+    .home{
+        height:auto;
+    }
+    .hero {
+        font-size: 40px;
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+    .desc {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .explore, .calc-short, .news-button {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .coins, .calculator {
+        padding-top: 50px;
+    }
+    .calculate-area {
+        width: 90%;
+    }
+    .currency-selection, .amount {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .inputs{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .calculate-button {
+        width: 100%;
+    }
+    .heading{
+        font-size: 12px;
+    }
+    .coin-details{
+        gap:20px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .coin-details img{
+        display: none;
+    }
+    .price{
+        font-size: 12px;
+        grid-column: 2/3;
+    }
+    .changes{
+        display: none;
+    }
+    .market{
+        display: none;
+    }
+    .coin{
+        font-size: 12px;
+        grid-column: 1/2;
+    }
+    .coin-details-heading{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Tablets (up to 768px) */
+@media (max-width: 768px) {
+    .hero {
+        font-size: 50px;
+        padding-top: 150px;
+        margin-left: 40px;
+    }
+    .desc {
+        font-size: 13px;
+        margin-left: 40px;
+    }
+    .explore, .calc-short, .news-button {
+        margin-left: 40px;
+        margin-top: 70px;
+    }
+    .coins, .calculator {
+        padding-top: 70px;
+    }
+    .calculate-area {
+        width: 80%;
+    }
+}
+
+/* Small desktops (up to 1024px) */
+@media (max-width: 1024px) {
+    .hero {
+        font-size: 60px;
+        padding-top: 150px;
+        margin-left: 60px;
+    }
+    .desc {
+        font-size: 13.5px;
+        margin-left: 60px;
+    }
+    .explore, .calc-short, .news-button {
+        margin-left: 60px;
+        margin-top: 80px;
+    }
+    .coins, .calculator {
+        padding-top: 80px;
+    }
+    .calculate-button {
+        width: 50%;
+    }
 }
