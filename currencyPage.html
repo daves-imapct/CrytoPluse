@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Page</title>
+    <link rel="stylesheet" href="currencyPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <section class="home">
+    <p class="hero">TRACK <br>YOUR <span>ASSETS</span></p>
+    <p class="desc">Track you crypto assets in real time and calculate your assets</p>
+    <a href="#coins"><button class="explore">Explore More</button></a>
+    <a href="#calculator"><button class="calc-short">Currency Converter</button></a>
+    <a href="./curencynews.html"><button class="news-button">Latest News</button></a>
+   </section>
+   <section class="coins" id="coins">
+    <h1></h1>
+    <div class = "coin-box">
+        <div class="coin-lines-heading">
+            <div class="coin-details-heading">
+                <p class="coin heading">Coin</p>
+                <p class="price heading">Price</p>
+                <p class="changes heading">24H%</p>
+                <p class="market heading">Market Cap</p>
+            </div>
+        </div>
+    <div class="coin-box2">    
+    
+    </div>    
+    </div>
+    <button class="load">Load More <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+   </section>
+   <section class="calculator" id="calculator">
+    <h1 class="currency-title">CURRENCY CONVERTER</h1>
+    <div class="calculate-area">
+        <form class="calculate-form">
+    <div class="currency-selection">
+    <select class="inputs currency-one" id="fromCurrency" required>
+        <option value="">Select a currency</option>
+        <optgroup label="Cryptocurrencies">
+            <option value="BTC">Bitcoin (BTC)</option>
+            <option value="ETH">Ethereum (ETH)</option>
+            <option value="BNB">Binance Coin (BNB)</option>
+            <option value="XRP">Ripple (XRP)</option>
+            <option value="USDT">Tether (USDT)</option>
+            <option value="ADA">Cardano (ADA)</option>
+            <option value="SOL">Solana (SOL)</option>
+            <option value="DOGE">Dogecoin (DOGE)</option>
+            <option value="DOT">Polkadot (DOT)</option>
+            <option value="LTC">Litecoin (LTC)</option>
+            <option value="LINK">Chainlink (LINK)</option>
+            <option value="XLM">Stellar (XLM)</option>
+            <option value="USDC">USD Coin (USDC)</option>
+            <option value="MATIC">Polygon (MATIC)</option>
+            <option value="SHIB">Shiba Inu (SHIB)</option>
+        </optgroup>
+    
+        <!-- Main Fiat Currencies -->
+        <optgroup label="Fiat Currencies">
+            <option value="USD">United States Dollar (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">British Pound Sterling (GBP)</option>
+            <option value="JPY">Japanese Yen (JPY)</option>
+            <option value="CHF">Swiss Franc (CHF)</option>
+            <option value="CAD">Canadian Dollar (CAD)</option>
+            <option value="AUD">Australian Dollar (AUD)</option>
+            <option value="CNY">Chinese Yuan (CNY)</option>
+            <option value="INR">Indian Rupee (INR)</option>
+            <option value="KRW">South Korean Won (KRW)</option>
+            <option value="RUB">Russian Ruble (RUB)</option>
+            <option value="BRL">Brazilian Real (BRL)</option>
+            <option value="MXN">Mexican Peso (MXN)</option>
+            <option value="HKD">Hong Kong Dollar (HKD)</option>
+            <option value="SGD">Singapore Dollar (SGD)</option>
+        </optgroup>
+    
+        <!-- Stablecoins -->
+        <optgroup label="Stablecoins">
+            <option value="USDT">Tether (USDT)</option>
+            <option value="USDC">USD Coin (USDC)</option>
+            <option value="DAI">Dai (DAI)</option>
+            <option value="BUSD">Binance USD (BUSD)</option>
+            <option value="USDP">Pax Dollar (USDP)</option>
+            <option value="TUSD">TrueUSD (TUSD)</option>
+        </optgroup>
+    </select>
+    <select class="inputs currency-two" id="toCurrency" required>
+        <option value="">Select a currency</option>
+        <optgroup label="Cryptocurrencies">
+            <option value="BTC">Bitcoin (BTC)</option>
+            <option value="ETH">Ethereum (ETH)</option>
+            <option value="BNB">Binance Coin (BNB)</option>
+            <option value="XRP">Ripple (XRP)</option>
+            <option value="USDT">Tether (USDT)</option>
+            <option value="ADA">Cardano (ADA)</option>
+            <option value="SOL">Solana (SOL)</option>
+            <option value="DOGE">Dogecoin (DOGE)</option>
+            <option value="DOT">Polkadot (DOT)</option>
+            <option value="LTC">Litecoin (LTC)</option>
+            <option value="LINK">Chainlink (LINK)</option>
+            <option value="XLM">Stellar (XLM)</option>
+            <option value="USDC">USD Coin (USDC)</option>
+            <option value="MATIC">Polygon (MATIC)</option>
+            <option value="SHIB">Shiba Inu (SHIB)</option>
+        </optgroup>
+    
+        <!-- Main Fiat Currencies -->
+        <optgroup label="Fiat Currencies">
+            <option value="USD">United States Dollar (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">British Pound Sterling (GBP)</option>
+            <option value="JPY">Japanese Yen (JPY)</option>
+            <option value="CHF">Swiss Franc (CHF)</option>
+            <option value="CAD">Canadian Dollar (CAD)</option>
+            <option value="AUD">Australian Dollar (AUD)</option>
+            <option value="CNY">Chinese Yuan (CNY)</option>
+            <option value="INR">Indian Rupee (INR)</option>
+            <option value="KRW">South Korean Won (KRW)</option>
+            <option value="RUB">Russian Ruble (RUB)</option>
+            <option value="BRL">Brazilian Real (BRL)</option>
+            <option value="MXN">Mexican Peso (MXN)</option>
+            <option value="HKD">Hong Kong Dollar (HKD)</option>
+            <option value="SGD">Singapore Dollar (SGD)</option>
+        </optgroup>
+    
+        <!-- Stablecoins -->
+        <optgroup label="Stablecoins">
+            <option value="USDT">Tether (USDT)</option>
+            <option value="USDC">USD Coin (USDC)</option>
+            <option value="DAI">Dai (DAI)</option>
+            <option value="BUSD">Binance USD (BUSD)</option>
+            <option value="USDP">Pax Dollar (USDP)</option>
+            <option value="TUSD">TrueUSD (TUSD)</option>
+        </optgroup>
+    </select>
+    </div>
+    <div class="amount">
+    <input type="number" placeholder="Enter the amount" class="inputs input-amount" id="amount" name="" required>
+    <input type="number" class="inputs output-amount" id="result" disabled name="">
+    </div>
+    <button class="calculate-button" id="convertBtn">Calculate</button>
+    </form>
+    </div>
+   </section>
+   <script src="script.js"></script>
+   <script src="script3.js"></script>
+</body>
+</html>
