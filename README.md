@@ -10,19 +10,7 @@ Welcome to CryptoPulse, your all-in-one cryptocurrency platform! Stay ahead of t
 - Market Insights: Access in-depth analysis and expert opinions to guide your trading decisions.
 - User-Friendly Interface: Experience a sleek, responsive design that works seamlessly on both desktop and mobile devices.
 
-## Installation
 
-To run CryptoPulse locally on your machine, follow these steps:
-
-1. Clone the repository:
-   git clone https://github.com/daves-imapct/CrytoPluse.git
-   cd cryptopulse
-2. Install dependencies:
-If your project requires dependencies, install them with:
-npm install
-3. Run the application:
-npm start
-4. Open in your browser:
 Visit http://localhost:3000 in your web browser to start using CryptoPulse.
 
 Usage
